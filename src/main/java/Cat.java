@@ -32,8 +32,7 @@ public class Cat extends Animal {
         }
     }
 
-    public int getCatCount() {
+    public void getCatCount() {
         System.out.println("Cat count: " + count);
-        return count;
     }
 }
