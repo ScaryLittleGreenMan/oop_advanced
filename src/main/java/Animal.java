@@ -6,9 +6,8 @@ public abstract class Animal {
         count++;
     }
 
-    public int getAnimalCount() {
+    public void getAnimalCount() {
         System.out.println("Animal count: " + count);
-        return count;
     }
 
     public Animal(String name) {
